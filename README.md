@@ -16,3 +16,26 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Reference Code
+
+- [vue-news-by-haguri](https://github.com/haguri-peng/vue-news-by-haguri)
+
+## Libraries
+
+- [Vue Router](https://router.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Font Awesome](https://fontawesome.com/)
+- [Axios](https://axios-http.com/)
+
+## Sample API
+
+- [HNPWA API](https://api.hnpwa.com/v0)
+
+## Improvement from previous version
+
+- Use Vue3, Setup Composition API, Typescript
+- Vue-CLI -> Vite
+- Vuex -> Pinia
+- Add scroll event to `/news` URL
+- CSS & Header
