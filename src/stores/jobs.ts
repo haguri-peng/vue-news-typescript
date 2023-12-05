@@ -12,7 +12,6 @@ export const useJobsStore = defineStore('jobs', () => {
   async function fetchJobs(page: number) {
     try {
       // 첫 호출인 경우 clear
-      // 보통 OnMounted에서 호출할 때 bFirst 값을 true로 세팅해서 넘겨줘야 데이터가 중복되지 않는다.
       if (page == 1) {
         jobsList.length = 0;
       }
